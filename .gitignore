@@ -14,3 +14,5 @@ prox_tv.egg-info
 .coverage
 .idea
 wheelhouse
+*.obj
+*.mexw64

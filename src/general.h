@@ -10,11 +10,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#define M_PI 3.14159265358979323846
 #define _USE_MATH_DEFINES
 #include <math.h>
 #include <float.h>
 #include <limits.h>
 
+#define dpttrs_ dpttrs
+#define dpttrf_ dpttrf
 /* Mex and LAPACK includes */
 #ifdef NOMATLAB
 #undef lapack_int
